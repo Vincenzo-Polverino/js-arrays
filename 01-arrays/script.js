@@ -36,7 +36,14 @@ teachers.unshift('Sarah')
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-const isFabioPresent = null;
+const isFabioPresent = teachers.indexOf('Fabio');
+if (isFabioPresent !== -1) {
+  console.log('Fabio è presente');
+  
+} else {
+  console.log('Fabio non è presente');
+  
+}
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
