@@ -38,7 +38,7 @@ teachers.unshift('Sarah')
 // e salva il risultato nella variabile isFabioPresent
 const isFabioPresent = teachers.indexOf('Fabio');
 if (isFabioPresent !== -1) {
-  console.log('Fabio è presente');
+  console.log('Fabio è presente', isFabioPresent);
   
 } else {
   console.log('Fabio non è presente');
@@ -58,4 +58,11 @@ console.log(teachersString);
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+const isTeachersEmpty = teachers.length ===0;
+if(true ===0){
+  console.log('la Array è vuota');
+  
+}else{
+  console.log('la Array non è vuota');
+  
+}
